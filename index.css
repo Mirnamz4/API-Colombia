@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+}
+
+header img {
+    width: 12vw;
+    height: 8vh
+}
+
+.introduccion img {
+    width: 15vw;
+    align-self: center;
+}
+
+.textoIntroduccion {
+    text-align: justify;
+    color: white;
+}
+
+.buscadoresHome {
+    display: flex;
+    align-items: end;
+}
+
+.notFound {
+    color: black;
+}
+
+.notFound img {
+    width: 10vw;
+}
+
+.tarjetaDepartamento {
+    background-color: bisque;
+}
+
+.tarjetaTamaño {
+    width: 15rem;
+    background-color: #f5d418;
+    transition: .2s;
+}
+.tarjetaTamaño:hover{
+    transform: scale(1.2);
+}
+
+.detailcard {
+    background-color: #f7f7fcec;
+    color: rgba(19, 3, 63, 0.863);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 30px;
+}
+
+.introduccion {
+    background-color: #10199b;
+}
+
+#contenedorDepartamentos {
+    background-color: #c6c8d105;
+}
+
+.tablaModificar img {
+    width: 10vw;
+}
+
+.tabla,
+.tablaModificar,
+.nombres {
+    border: solid rgb(4, 0, 255) 1px;
+}
+
+.justificar {
+    text-align: justify;
+}
+
+.background1 {
+    background-color: rgb(152, 209, 209);
+}
+
+.background2 {
+    background-color: rgb(152, 209, 169);
+}
+
+.detailsFondo {
+    background-color: rgba(0, 0, 255, 0.877);
+    min-height: 78vh;
+}
+
+#contenedorSuperior,
+#contenedorInferior {
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(17, 16, 77, 0.74);
+}
+
+.nombres {
+    background-color: rgba(255, 255, 0, 0.493);
+}
+
+footer {
+    background-color: rgb(255, 0, 0);
+    height: 17vh;
+}
+
+footer img {
+    height: 100%;
+
+}
+
+footer h1 {
+    transform: rotate(340deg);
+    align-self: center;
+}
+
+.imagenEspecie {
+    transition: transform .2s;
+}
+
+.imagenEspecie:hover {
+    transform: scale(1.5);
+}
+
+#actual {
+    color: rgba(207, 179, 179, 0.486);
+}
+
+.buscadores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+header{
+    background-color: black;
+}
+
+
+@media (max-width: 772px) and (min-width: 470px) {
+    .notFound img {
+        width: 19vw;
+    }
+
+
+    footer {
+        height: 12vh;
+    }
+
+    #switchHome {
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width: 469px) {
+    .buscadores {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    header img {
+        width: 19vw;
+    }
+
+    .notFound img {
+        width: 19vw;
+    }
+
+
+    footer {
+        height: 12vh;
+    }
+}
